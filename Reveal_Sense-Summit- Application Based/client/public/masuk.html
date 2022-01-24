@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/chatcode/design.css">
+    <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, onepage, responsive, mobile" />
+    <title>Ruang Curhat</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section>
+        <a href="index.html"><img src="./images/logo-first.png" alt="Vossen" class="logo-big"></a>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Beranda</a>
+            <div class="dropdown">
+                <button class="dropbtn">Hiburan
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="film.html">Film</a>
+                    <a href="blog-tempat.html">Tempat</a>
+                    <a href="blog-musik.html">Musik</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Bantuan
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="masuk.html">Ruang Curhat</a>
+                    <a href="motivasi.html">Kata Motivasi</a>
+                </div>
+            </div>
+            <a href="feedback.html">Saran</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="join-header">
+            <h1>Ruang Curhat</h1>
+        </div>
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="images/chat.svg" alt="">
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <form action="chat.html">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="username" id="username" placeholder="Masukkan Username" required>
+                            </div>
+                            <p>Pilih Room :</p>
+                            <div class="custom-select">
+                                <select name="room" id="room">
+                                    <option value="Sedih">Sedih</option>
+                                    <option value="Senang">Senang</option>
+                                    <option value="Galau">Galau</option>
+                                    <option value="Ambyar">Ambyar</option>
+                                    <option value="Bahagia">Bahagia</option>
+                                    <option value="Cuek">Cuek</option>
+                                </select>
+                            </div>
+                            <div class="button input-box">
+                                <input type="submit" value="Masuk">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<!-- Meta Data -->
+        <meta charset="utf-8">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reveal Sense</title>
+        <meta name="description" content="A Template by Revealsense Design" />
+        <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, onepage, responsive, mobile" />
+        <meta name="author" content="RevealSense Design" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+       	<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+       
+
+        <!-- Stlylesheet -->
+        <link href="css/style.css?v=2" rel="stylesheet" type="text/css" />
+
+        <!-- Skin Color -->
+        <link rel="stylesheet" href="css/colors/green.css" id="color-skins"/>
+
+	</head>
+	<body>
+
+        <!--Start Header-->
+        <header>
+            <nav class="navbar navbar-default navbar-alt" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand to-top" rel="home" href="index.html">
+                            <img src="./images/logo-first.png" alt="Vossen" class="logo-big">
+                            <img src="./images/logo-sec.png" alt="Vossen" class="logo-small">
+                        </a>
+                    </div>
+    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav  navbar-right">
+    
+                            <li><a href="index.html">Beranda </a></li>
+                            <li class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">Hiburan <b class="caret"></b></span>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="film.html" style="font-size: 14px;">Film</a></li>
+                                    <li><a href="blog-tempat.html" style="font-size: 14px;">Tempat</a></li>
+                                    <li><a href="blog-musik.html" style="font-size: 14px;">Musik</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">Bantuan <b class="caret"></b></span>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="./masuk.html" style="font-size: 14px;">Ruang Curhat</a>
+                                    </li>
+                                    <li><a href="./motivasi.html" style="font-size: 14px;">Kata Motivasi</a>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li><a href="feedback.html">Saran</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+        </header>
+        <!--End Header-->
+
+        <div class="container" style="padding: 0;">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
+    
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="#s-headings">
+                            <img src="img/backgrounds/bg-tempat-pantai.jpeg">
+                        </a>
+                    </div>
+    
+                    <div class="item">
+                        <a href="#tempat1"><img src="img/backgrounds/bg-tempat-gunung.jpg"></a>
+                    </div>
+    
+                    <div class="item">
+                        <a href="#tempat2"><img src="img/backgrounds/bg-tempat-mall.jpeg"></a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#tempat3"><img src="img/backgrounds/bg-tempat-masjid.jpg"></a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#tempat3"><img src="img/backgrounds/bg-tempat-gereja.jpg"></a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#tempat3"><img src="img/backgrounds/bg-tempat-vihara.jpg"></a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#tempat4"><img src="img/backgrounds/bg--tempat-perpus.jpg"></a>
+                    </div>
+
+                    <div class="item">
+                        <a href="#tempat5"><img src="img/backgrounds/bg-tempat-rumah.jpeg"></a>
+                    </div>
+                </div>
+    
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="site-wrapper content">
+
+				<!-- HEADINGS -->
+				<section id="s-headings" class="bg-grey">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Pantai</h3>
+                                <p class="subheading"></p>
+                                <!-- line-height: 1.8; -->
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider-3" class="owl-carousel">
+                                    <div>
+                                        <a href="https://www.traveloka.com/en-id/activities/search?st=LANDMARK&eid=91510545433779" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-pantai-nihiwatu.jpg" alt="">
+                                            <div><h5>Nihiwatu Beach, Sumba, Nusa Tenggara Timur</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.traveloka.com/en-id/activities/indonesia/product/tur-pink-beach-lombok-private-tour-7400367654446" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-pantai-pink.jpg" alt="">
+                                            <div><h5>Pink Beach, Pulau Komodo, Nusa Tenggara Timur</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.traveloka.com/en-id/activities/indonesia/product/explore-lombok-and-gili-with-private-car-and-speedboat-2001889030098" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-pantai-gili.jpg" alt="">
+                                            <div><h5>Pulau Gili, Nusa Tenggara Barat</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px;">
+                                    <p >Masalah hidup seperti ombak tepi pantai, ia akan datang tapi pada saatnya ia akan pergi.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;" >
+                                        <li><a href="#"><i class="ion-person"></i> Dari Harry Slyman</a></li>
+                                    </ul>
+                                    <p style=" margin-top: 20px;">Anda tidak dapat menyeberangi lautan sampai Anda mempunyai keberanian untuk melupakan pantai.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Andre Gide</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+						</div>
+                    </div>
+				</section>
+
+				<!-- PARAGRAPHS -->
+				<section id="tempat1">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Gunung</h3>
+                                <p class="subheading"></p>
+                            </div>
+
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider-2" class="owl-carousel">
+                                    <div>
+                                        <a href="https://goo.gl/maps/RZqgB6oe3bPVPT428" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-gunung-bromo.jpg" alt="">
+                                            <div><h5>Gunung Bromo</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/cBc7YDX8MeGgYwAY8" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-Gunung-Semeru.jpg" alt="">
+                                            <div><h5>Gunung Semeru</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/A2msGiE2iLczZrNLA" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-gunung-prau.jpg" alt="">
+                                            <div><h5>Gunung Prau</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/LtWksotzU8CPzXnu6" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-gunung-rinjani.JPG" alt="">
+                                            <div><h5>Gunung Rinjani</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/G7HnumUkvxWocRta9" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-gunung-ijen.jpg" alt="">
+                                            <div><h5>Gunung Ijen</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px;">
+                                    <p>Jangan buang hari ini dengan mengkuatirkan hari esok. Gunung pun terasa datar ketika kita sampai ke puncaknya.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Phi Delta Kappan</a></li>
+                                    </ul>
+
+                                    <p style="margin-top: 20px;">Tiada awan di langit yang tetap selamanya. Tiada mungkin akan terus-menerus terang cuaca. Sehabis malam gelap gulita lahir pagi membawa keindahan. Kehidupan manusia serupa alam.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Raden Adjeng Kartini</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+						</div>
+                    </div>
+				</section>
+
+                <section id="tempat2">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Mall</h3>
+                                <p class="subheading"></p>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider-4" class="owl-carousel">
+                                    <div>
+                                        <a href="https://goo.gl/maps/41oXuFW7zEy6M6fZ7" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-mall-kasablanka.jpg" alt="">
+                                            <div><h5>Kota Kasablanka</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://g.page/CentralParkMallJkt?share" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-mall-central-park.jpg" alt="">
+                                            <div><h5>Central Park Mall</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/yeM2N8HSYxtZbivK7" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-mall-Grand-Indonesia.jpg" alt="">
+                                            <div><h5>Grand Indonesia Shopping Town</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/VFGriznbAVn2Mq2a7" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-mall-tunjungan.jpg" alt="">
+                                            <div><h5>Tunjungan Plaza</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/TgQamMXpM8im5Xg86" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-mall-trans.jpg" alt="">
+                                            <div><h5>Trans Studio Mall - Bandung</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px;">
+                                    <p>Kalau ingin melakukan perubahan jangan tunduk terhadap kenyataan, asalkan kau yakin di jalan yang benar maka lanjutkan.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Abdurrahman Wahid</a></li>
+                                        <!-- <li><a href="#"><i class="ion-clock"></i> 18 March</a></li> -->
+                                    </ul>
+
+                                    <p style="margin-top: 20px;">Jika kita "tidak mudah menyerah", maka kita sudah dekat sekali dengan kesuksesan. Karena di dunia ini, ada dua orang yang susah sekali dikalahkan: 1. orang yang sabar; 2. orang yang tidak mudah menyerah.<p>
+                                        <ul class="blog-post-info" style="margin-left: -15px;">
+                                            <li><a href="#"><i class="ion-person"></i> Dari Tere Liye</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+				</section>
+
+                <section id="tempat3">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Tempat Ibadah</h3>
+                                <p class="subheading"></p>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider" class="owl-carousel">
+                                    <div>
+                                        <a href="https://www.traveloka.com/en-id/holiday-stays/detail?spec=31-12-2021.01-01-2022.1.HOTEL.3000020013189.Radika%20Paradise%20Villa%20%26%20Cottage.1">
+                                            <img class="img-responsive" src="img/blog/tempat-ibadah-islam.jpg" alt="">
+                                            <div><h5>Islam (Masjid)</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <img class="img-responsive" src="img/blog/tempat-ibadah-protestan.jpg" alt="">
+                                            <div><h5>Kristen Protestan (Gereja)</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <img class="img-responsive" src="img/blog/tempat-ibadah-hindu.jpg" alt="">
+                                            <div><h5>Hindu (Pura)</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <img class="img-responsive" src="img/blog/tempat-ibadah-buddha.jpg" alt="">
+                                            <div><h5>Agama Buddha (Vihara/Wihara)</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="">
+                                            <img class="img-responsive" src="img/blog/tempat-ibadah-konghucu.jpg" alt="">
+                                            <div><h5>Konghucu (Kelenteng/Litang)</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px;">
+                                    <p>Menyibukan diri dalam aktivitas ibadah merupakan obat mujarab bagi seseorang yang ingin bangkit dari kesedihan berkepanjangan.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Abdullah Gymnastiar</a></li>
+                                    </ul>
+
+                                    <p style="margin-top: 20px;">Tidak apa-apa kalau ilmu agamamu masih pas-pasan, itu malah membuatmu menjadi rendah hati. Banyak orang yang sudah merasa tahu ilmu agama, malah menjadikannya tinggi hati.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Emha Alnun Nadjib</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+						</div>
+                    </div>
+				</section>
+
+                <section id="tempat4">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Perpustakaan</h3>
+                                <p class="subheading"></p>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider-5" class="owl-carousel">
+                                    <div>
+                                        <a href="https://goo.gl/maps/3yyJjToGzNrkD3Xk8" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-perpus-nasionalRI.jpg" alt="">
+                                            <div><h5>Perpustakaan Nasional Republik Indonesia</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/C5rSD75r6fA2nQ6C9" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-perpus-UI.jpg" alt="">
+                                            <div><h5>Perpustakaan Universitas Indonesia</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/8bxpTh9RYD8eYggM8" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-perpus-ITB.jpg" alt="">
+                                            <div><h5>Perpustakaan Institut Teknologi Bandung</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://g.page/grhatamapustaka?share" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-perpus-Grhatama.jpg" alt="">
+                                            <div><h5>Grhatama Pustaka</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://goo.gl/maps/vLkfB17hmzJcYqAC9" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-perpus-soeman.jpg" alt="">
+                                            <div><h5>Perpustakaan Soeman HS</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px;">
+                                    <p>Hidup itu seperti perpustakaan yang dimiliki oleh penulisnya. Di dalamnya ada beberapa buku yang dia tulis sendiri, tetapi kebanyakan ditulis untuknya.<p>
+                                    <ul class="blog-post-info" style="margin-left: -15px;">
+                                        <li><a href="#"><i class="ion-person"></i> Dari Harry Emerson Fosdick</a></li>
+                                    </ul>
+
+                                    <p style="margin-top: 20px;">Hakikat hidup bukanlah apa yang kita ketahui, bukan buku-buku yang kita baca atau kalimat-kalimat yang kita pidatokan, melainkan apa yang kita kerjakan, apa yang paling mengakar di hati, jiwa dan inti kehidupan kita.<p>
+                                        <ul class="blog-post-info" style="margin-left: -15px;">
+                                            <li><a href="#"><i class="ion-person"></i> Emha Alnun Nadjib</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+
+						</div>
+                    </div>
+				</section>
+
+                <section id="tempat5">
+                    <div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">Rumah</h3>
+                                <p class="subheading"></p>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div id="owl-slider-6" class="owl-carousel">
+                                    <div>
+                                        <a href="https://www.rumah.com/listing-properti/dijual-rumah-murah-pangkalan-asem-jakarta-pusat-rumah-baru-murah-jakarta-pusat-oleh-irwan-18210721" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-rumah-kamar1-2.jpg" alt="">
+                                            <div><h5>Cluster Pangkalan asem</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.rumah.com/listing-properti/dijual-orchard-village-oleh-vanadi-y-putra-18331207" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-rumah-kamar2-a.jpg" alt="">
+                                            <div><h5>Orchard Village</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.rumah.com/listing-properti/dijual-perumahan-shafia-3-oleh-hendri-gunawan-19460197" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-rumah-kamar3.jpg" alt="">
+                                            <div><h5>Perumahan shafia 3</h5></div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.rumah.com/listing-properti/dijual-exclusively-appointed-secluded-homey-and-spacious-house-in-cipete-utara-oleh-yosef-dadi-19486063" target="_blank" rel="noopener noreferrer">
+                                            <img class="img-responsive" src="img/blog/tempat-rumah-kamar4.jpg" alt="">
+                                            <div><h5>Cipete, Jakarta Selatan</h5></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 shortcode-title wow fadeIn">
+                                <div class="paraf" style="text-align: left; margin-left: 50px; margin-top: 30px">
+                                    <p>Apabila rumah itu rusak, yang menempatinya pun rusak.<p>
+                                    <ul class="blog-post-info">
+                                        <li><a href="#"><i class="ion-person" style="margin-left: -15px;"></i> Dari Paramoedya Ananta Toer</a></li>
+                                    </ul>
+
+                                    <p style="margin-top: 20px;">Yang dirindukan para pekerja setiap pulang ke rumah: suasana hangat dan tidur dengan nyenyak.<p>
+                                        <ul class="blog-post-info">
+                                            <li><a href="#"><i class="ion-person" style="margin-left: -15px;"></i> Dari Philaurika</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+
+						</div>
+                    </div>
+				</section>
+
+				<!-- PROGRESS BARS -->
+				<section id="s-bars">
+					<div class="container">
+						<div class="row shortcode-heading">
+
+                            <div class="col-md-12 shortcode-title wow fadeIn">
+                                <h3 class="section-title">tempat yang sering dikunjungi</h3>
+                            </div>
+
+                        	<div class="col-md-12 wow fadeIn">
+
+                                <div class="progress-bars">
+                                    <p>Pantai</p>
+                                    <div class="progress" data-percent="9%">
+                                        <div class="progress-bar">
+                                            <span class="progress-bar-tooltip">9%</span>
+                                        </div>
+                                    </div>
+                                    <p>Gunung</p>
+                                    <div class="progress" data-percent="14.4%">
+                                        <div class="progress-bar progress-bar-primary">
+                                            <span class="progress-bar-tooltip">14.4%</span>
+                                        </div>
+                                    </div>
+                                    <p>Mall</p>
+                                    <div class="progress" data-percent="6.2%">
+                                        <div class="progress-bar progress-bar-primary">
+                                            <span class="progress-bar-tooltip">5.2%</span>
+                                        </div>
+                                    </div>
+                                    <p>Tempat Ibadah</p>
+                                    <div class="progress" data-percent="26.1%">
+                                        <div class="progress-bar progress-bar-primary">
+                                            <span class="progress-bar-tooltip">26.1%</span>
+                                        </div>
+                                    </div>
+                                    <p>Perpustakaan</p>
+                                    <div class="progress" data-percent="4.3%">
+                                        <div class="progress-bar progress-bar-primary">
+                                            <span class="progress-bar-tooltip">4.3%</span>
+                                        </div>
+                                    </div>
+                                    <p>Rumah</p>
+                                    <div class="progress" data-percent="40%">
+                                        <div class="progress-bar progress-bar-primary">
+                                            <span class="progress-bar-tooltip">40%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+					</div>
+				</section>
+
+            <!-- Start Footer 1 -->
+            <div class="footer-copyright">
+                <p>© 2021 <a href="index.html" class="rev-logo">Reveal Sense</a> All
+                    Rights
+                    Reserved. </p>
+            </div>
+            <!-- End Footer 1 -->
+
+            <!-- Start Back To Top -->
+            <a id="back-to-top"><i class="icon ion-chevron-up"></i></a>
+            <!-- End Back To Top -->
+
+        </div><!-- End Site Wrapper -->
+
+        <!-- jQuery -->
+        <script src="js/plugins/jquery.min.js"></script>
+        <script src="js/plugins/moderniz.min.js"></script>
+        <script src="js/plugins/revslider.min.js"></script>
+        <script src="js/plugins/bootstrap.min.js"></script>
+        <script src="js/plugins/waypoints.min.js"></script>
+        <script src="js/plugins/parallax.min.js"></script>
+        <script src="js/plugins/easign1.3.min.js"></script>
+        <script src="js/plugins/cubeportfolio.min.js"></script>
+        <script src="js/plugins/owlcarousel.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/plugins/gmap3.min.js"></script>
+        <script src="js/plugins/wow.min.js"></script>
+        <script src="js/plugins/counterup.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>
